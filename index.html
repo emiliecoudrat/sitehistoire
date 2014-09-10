@@ -8,48 +8,61 @@
 	<meta charset="utf-8">
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
+
 <body>
+<div class="wrapper">
+
+<div class="header">
 	<h1>JE VOUS AI COMPRIS.</h1>
 	<img src="http://glgvisualculture.files.wordpress.com/2011/07/ducamp-mona-lhooq.jpg" alt="LHOOQ"/>
 	<h2>L'histoire, autrement.</h2>
+</div>
+
+<div class="nav">
 	<nav>
 		<ul>
-			<li>Reines, rois et dirigeants</li>
-			<li>Batailles</li>
-			<li>L'inconnu du coin</li>
-			<li>Le quizz du héros</li>
+			<a href="#"><li>Reines, rois et dirigeants</li></a>
+			<a href="#"><li>Batailles</li></a>
+			<a href="#"><li>L'inconnu du coin</li></a>
+			<a href="#"><li>Le quizz du héros</li></a>
 		</ul>
 	</nav>
+</div>
 
 	<section>
-		<article class="left">
-			<img src="http://upload.wikimedia.org/wikipedia/commons/e/e5/Pompadour6.jpg" alt="Pompadour"/>
-			<h3>La Pompadour</h3>
-			<p>Jeanne Antoinette Poisson, Marquise de Pompadour, also known as Madame de Pompadour (29 December 1721 – 15 April 1764, French pronunciation: ​[pɔ̃.pa.duːʁ]) was a member of the French court and was the official chief mistress of Louis XV from 1745 to her death. She was trained from childhood to be a mistress, and learned her trade well. She took charge of the king’s schedule and was an indispensable aide and advisor, despite her frail health and many political enemies. She secured titles of nobility for herself and her relatives, and built a network of clients and supporters. She paid careful attention not to alienate the Queen, Marie Leszczyńska. </p>
-		</article>
+		<div class=enhaut> 
+			<article class="left">
+				<img src="http://upload.wikimedia.org/wikipedia/commons/e/e5/Pompadour6.jpg" alt="Pompadour"/>
+				<h3>La Pompadour</h3>
+				<p>Jeanne Antoinette Poisson, Marquise de Pompadour, also known as Madame de Pompadour (29 December 1721 – 15 April 1764, French pronunciation: ​[pɔ̃.pa.duːʁ]) was a member of the French court and was the official chief mistress of Louis XV from 1745 to her death. She was trained from childhood to be a mistress, and learned her trade well. She took charge of the king’s schedule and was an indispensable aide and advisor, despite her frail health and many political enemies. She secured titles of nobility for herself and her relatives, and built a network of clients and supporters. She paid careful attention not to alienate the Queen, Marie Leszczyńska. </p>
+			</article>
 
-		<article class="left">
-			<img src="http://upload.wikimedia.org/wikipedia/commons/8/87/Marie_Antoinette_1767.jpg" alt="Marie-Antoinette"/>
-			<h3>Marie-Antoinette</h3>
-			<p>Marie-Antoinette Josèphe Jeanne de Habsbourg-Lorraine (en allemand, Maria Antonia Josepha Johanna von Habsburg-Lothringen), archiduchesse d’Autriche, princesse impériale, princesse royale de Hongrie et de Bohême, (née le 2 novembre 1755 à Vienne – morte le 16 octobre 1793 à Paris), fut la dernière reine consort de France et de Navarre (1774–1792), épouse de Louis XVI, roi de France et de Navarre.</p>
-		</article>
+			<article class="right">
+				<img src="http://upload.wikimedia.org/wikipedia/commons/8/87/Marie_Antoinette_1767.jpg" alt="Marie-Antoinette"/>
+				<h3>Marie-Antoinette</h3>
+				<p>Marie-Antoinette Josèphe Jeanne de Habsbourg-Lorraine (en allemand, Maria Antonia Josepha Johanna von Habsburg-Lothringen), archiduchesse d’Autriche, princesse impériale, princesse royale de Hongrie et de Bohême, (née le 2 novembre 1755 à Vienne – morte le 16 octobre 1793 à Paris), fut la dernière reine consort de France et de Navarre (1774–1792), épouse de Louis XVI, roi de France et de Navarre.</p>
+			</article>
+		</div>
 
-		<article class="right">
+		<div class=enbas> 
+			<article class="right">
 			<img src="http://idata.over-blog.com/4/95/95/23/Images-blog-01/2012/Portrait-de-Charles-IX--1561-1574--par-Francois-Clouet--Mu.jpg" alt="Charles 9"/>
 			<h3>Charles IX</h3>
 			<p>Charles IX de France, né le 27 juin 1550 au château royal de Saint-Germain-en-Laye et mort à 23 ans le 30 mai 1574 au château de Vincennes, fut roi de France de 1560 à 1574.</p>
-		</article>
+			</article>
 
-		<article class="right">
+			<article class="left">
 			<img src="http://www.devoir-de-philosophie.com/images_dissertations/126771.jpg" alt="CatherineII"/>
 			<h3>Catherine II</h3>
 			<p>Catherine II (en russe : Екатерина II), née Sophie-Frédérique-Augusta d'Anhalt-Zerbst (en russe : София Фредерика Августа Цербст-Ангальтская) le 2 mai 1729 à Stettin en Poméranie et morte le 17 novembre 1796 à Saint-Pétersbourg, surnommée « Figchen », puis la « Grande Catherine », est impératrice et autocrate de toutes les Russies du 28 juin 1762 à sa mort.</p>
-		</article>
+			</article>
+		</div>
 
 	</section>
 
 	<aside>
-		<div>
+
+		<div class="bloctwitter">
 			<i class="fa fa-star fa-3x"></i>
 			<h3>Chercher un article</h3>
 			<form action="">		
@@ -63,14 +76,22 @@
 			<a class="twitter-timeline" href="https://twitter.com/emilie_coudrat" data-widget-id="509265215083397120">Tweets by @emilie_coudrat</a>
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		</div> 
+
 	</aside>
 
 	<footer>
-		<i class="fa fa-facebook-square fa-3x"></i>
-		<a href=#><button><h3>Je veux m'inscrire à la Newsletter !</h3></button></a>
-		<i class="fa fa-twitter-square fa-3x"></i>
+
+		<div><i class="fa fa-facebook-square fa-3x"></i></div>
+
+		<div class="parent">
+				<span>Je veux m'inscrire à la Newsletter !</span>
+				<a href="#"><div class="cache">GO!</div></a>
+		</div>
+		
+		<div><i class="fa fa-twitter-square fa-3x"></i></div>
+
 	</footer>
 
-	
+</div>
 </body>
 </html>

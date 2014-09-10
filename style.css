@@ -1,6 +1,4 @@
-* {
-	text-align: center ; 
-}
+/*{text-align: center ; }*/
 
 
 h1 {
@@ -22,6 +20,10 @@ img {
 	border-radius: 90px ;
 }
 
+article img {
+	text-align: center ; 
+}
+
 li {
 	font-family: 'Noto Sans', sans-serif; 
 	font-size : 20px ;
@@ -31,16 +33,18 @@ li {
 	border-radius: 5px ; 
 	border-style: none ; 
 	background-color : #FAD62F ;
-	margin : 30px ;
 	height : 50px ;
 	width : 200px ;
 	padding : 5px ;
+	margin : 5px ;
+	text-align: center ; 
 }
 
 h3 {
 	font-family: 'Noto Sans', sans-serif ;
 	color : 617A7A ;
 	font-size: 20px; 
+	text-align: center ; 
 }
 
 p {
@@ -61,13 +65,7 @@ aside {
 
 }
 
-div {
-	border : 2px solid #617A7A ; 
-	border-radius: 5px; 
-	height : 600px ;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
+
 
 aside button {
 	background-color : #FAD62F; 
@@ -83,30 +81,67 @@ section {
 }
 
 article {
-	height : 600px ;
+	height : 750px ;
+	text-align : justify ;
 }
 
 .left {
 	float : left ;
-	width : 50% ;
+	width : 45% ;
 }
 
 .right {
 	float : right ;
-	width : 50% ;
+	width : 45% ;
 }
 
 
-a button {
+/*footer button {
 	background-color : #196969 ;
+	width : 200px;
 }
 
-a button h3 {
+footer button h3 {
 	color : white ; 
 	padding : 10px ;
 	margin : auto ;
 	font-size: 10px ; 
+}*/
+
+.parent:hover .cache {
+	display: block;
 }
+
+.cache {
+	background-color : #FAD62F ;
+	color : black; 
+	font-weight: bold ; 
+	font-family: 'Noto Sans', sans-serif; 
+	padding : 10px ;
+	margin : auto ;
+	font-size: 15px ; 
+	display: none;
+	opacity: 0.8 ; 
+	width: 91% ;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+.parent {
+	background-color : #196969 ;
+	width : 200px;
+	color : white ; 
+	font-family: 'Noto Sans', sans-serif; 
+	padding : 10px ;
+	margin : auto ;
+	font-size: 10px ; 
+	height : 57px;
+	cursor: crosshand ;
+	position : relative;
+}
+
+
 
 a {
 	text-decoration : none ; 
@@ -114,10 +149,60 @@ a {
 
 footer {
 	clear : both ;
-	position : relative ;
-	text-align: center ; 
+	/*position : fixed ;*/
+	text-align: center ;
+	/*display : inline-block;*/
+}
+
+footer div {
+	display: inline ;
+	margin : auto ;
+	padding: 5px; 
 }
 
 i {
 	color: #FAD62F ;
+}
+
+.wrapper {
+	width : 900px ;
+	margin : auto ;
+	padding : 5px 10px ;
+}
+
+.header {
+	text-align : center ;
+}
+
+
+.nav {
+
+	width : 900px ;
+	padding : 5px 10px ;
+}
+
+.bloctwitter {
+
+	border : 2px solid #617A7A ; 
+	border-radius: 5px; 
+	height : 600px ;
+	padding-left : 10px ;
+	padding-right : 10px;
+
+}
+
+.enhaut {
+	height : 700px;
+	padding : 10px ;
+	margin: auto ; 
+}
+
+.enbas {
+	height : 700px;
+	padding: 10px ;
+}
+
+a:hover {
+  color : #617A7A ;
+  font-weight: bold ; 
 }
